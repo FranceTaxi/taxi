@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Arial Monospaced MT';
+    src: url('../font/Taxi.ttf') format('truetype'); 
+}  
+body{
+    background-color: #f5f5f5;
+    font-family: 'Arial Monospaced MT', monospace;
+    font-size: 12px;
+    color: #333;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    width: 58mm;
+    letter-spacing: -1.0px;
+}
+#ticket{
+    width: 58mm;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+#content{
+    height: auto;
+    background-color: white;
+    padding-top: 0;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    width: calc(100% - padding-left);
+}
+input{
+    border-color: grey;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+#reference{
+    position: absolute;
+    width: 18mm;
+    top: 4.5mm;
+    left: 35mm;
+}
+#dateDebut{
+    position: absolute;
+    width: 100%;
+    top: 40mm;
+    left: 0;
+}
+#dateFin{
+    position: absolute;
+    width: 100%;
+    top: 45mm;
+    left: 0;
+}
+#distance{
+    position: absolute;
+    width: 12mm;
+    top: 51mm;
+    left: 42mm;
+}
+#tarif{
+    position: absolute;
+    width: 12mm;
+    top: 74mm;
+    left: 16mm;
+}
+#tablePrix{
+    line-height: 15px;
+    width: 100%;
+}
+#tablePrix td:nth-child(2){
+    padding-left: 23px;
+}
+#tablePrix td:nth-child(3){
+    padding-left: 0px;
+}
+#tablePrix td:nth-child(4){
+    padding-left: 0spx;
+}
+#total{
+    position: absolute;
+    width: 12mm;
+    top: 115.5mm;
+    left: 42mm;
+}
+#tva{
+    position: absolute;
+    width: 12mm;
+    top: 123.7mm;
+    left: 42mm;
+}
+.priceSelector{
+    width: 50px;
+}

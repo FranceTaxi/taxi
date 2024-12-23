@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>TAXI TLB</title>
+</head>
+<body>
+    <div id="ticket">
+        <form action="result.html" method="get">
+        <img src="./img/Header.png" alt="header_image" >
+        <img src="./img/Body1.png" alt="header_image" >
+        <div id="content">
+            <!--Contenu Dynamique-->
+            <table id="tablePrix">
+                <tr id="firstRow">
+                </tr>
+                <tr id="secondRow">
+                </tr>
+            </table>
+        </div>
+        <img src="./img/Body2.png" alt="header_image" >
+        <img src="./img/Footer.png" alt="header_image" >
+        <div id="total">
+            XXXXXX
+        </div>
+        <div id="tva">
+            XXX
+        </div>
+        <!--Gestion Forms-->
+            <input id="reference" name="ref" type="text" value=""  placeholder="Référence">
+            <input id="dateDebut" name="dateDeb" type="datetime-local" value="" placeholder="Date de Début Course">
+            <input id="dateFin" name="dateFin" type="time" value="" placeholder="Date de Fin Course">
+            <input id="distance" name="dist" type="text" value="" placeholder="Dist">
+            <select name="tarif" id="tarif" title="Tarif">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="A,B">A,B</option>
+                <option value="B,A">B,A</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="C,D">C,D</option>
+                <option value="D,C">D,C</option>
+              </select>
+            
+            <input id="submit" type="submit" value="Valider">
+        </form>
+    </div>
+    <!-- Scripts -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="./js/script.js"></script>
+    <style>img[alt="www.000webhost.com"]{display:none;}</style>
+</body>
+</html>

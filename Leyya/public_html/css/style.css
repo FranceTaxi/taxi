@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Cygnito Mono';
+    src: url('../font/Cygnito.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'Cygnito Test';
+    src: url('../font/CygnitoTest.ttf') format('truetype'); 
+}  
+@page { size: 58mm 100%}
+body{
+    background-color: #f5f5f5;
+    font-family: 'Cygnito Mono', monospace;
+    font-size: 12px;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    width: 58mm;
+    letter-spacing: -0.75px;
+    font-weight: 600;
+    color: #707070;
+}
+#ticket{
+    width: 58mm;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+#content{
+    height: auto;
+    background-color: white;
+    padding-top: 0;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    width: calc(100% - padding-left);
+}
+input{
+    border-color: grey;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+#reference{
+    position: absolute;
+    width: 18mm;
+    top: 67.5mm;
+    right: 4mm;
+}
+#dateDebut{
+    position: absolute;
+    right: 0mm;
+    top: 28mm;
+}
+#dateFin{
+    position: absolute;
+    top: 34mm;
+    right: 0mm;
+}
+#distance{
+    position: absolute;
+    width: 12mm;
+    top: 35mm;
+    left: 21mm;
+}
+#tarif{
+    position: absolute;
+    width: 18mm;
+    top: 67.5mm;
+    left: 4mm;
+}
+#tablePrix{
+    line-height: 20px;
+}
+#tablePrix td:nth-child(1){
+    padding-left: 10mm;
+    padding-right: 10mm;
+}
+#tablePrix td:nth-child(2){
+    display: none;
+}
+#tablePrix td:nth-child(3){
+    display: none;
+}
+#tablePrix td:nth-child(4){
+    text-align: right;
+}
+#total{
+    display: none;
+}
+#tva{
+    display: none;
+}
+.priceSelector{
+    width: 50px;
+}
